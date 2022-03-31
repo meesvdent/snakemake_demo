@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /data/leuven/306/vsc30690/miniconda3/bin/bash
+Provided cores: -1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+fastqc        1             -1              0
+total         1             -1              0
+
+Select jobs to execute...
+
+[Wed Mar 16 21:51:20 2022]
+rule fastqc:
+    input: 000.fastq/TLE66_N.fastq
+    output: 010.fastqc/TLE66_N.zip, 010.fastqc/TLE66_N.html
+    jobid: 0
+    threads: -1
+    resources: tmpdir=/tmp/16ef8e0682
+
+[Wed Mar 16 21:51:20 2022]
+Error in rule fastqc:
+    jobid: 0
+    output: 010.fastqc/TLE66_N.zip, 010.fastqc/TLE66_N.html
+    shell:
+        
+        echo "Input; input
+    	
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /lustre1/scratch/345/vsc34512/snakefile_demo/.snakemake/log/2022-03-16T215120.477884.snakemake.log

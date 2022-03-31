@@ -1,0 +1,2 @@
+SyntaxError in line 17 of /lustre1/scratch/345/vsc34512/snakefile_demo/Snakefile:
+EOF in multi-line string (Snakefile, line 17)

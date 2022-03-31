@@ -1,0 +1,2 @@
+SyntaxError in line 8 of /lustre1/scratch/345/vsc34512/snakefile_demo/Snakefile:
+Command must be given as string after the shell keyword. (Snakefile, line 8)

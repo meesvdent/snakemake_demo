@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 1 of /lustre1/scratch/345/vsc34512/snakefile_demo/Snakefile:
+Missing input files for rule run_fastqc:
+TLE66_N.fastq

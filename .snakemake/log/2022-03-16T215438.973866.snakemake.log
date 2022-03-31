@@ -1,0 +1,2 @@
+SyntaxError in line 8 of /lustre1/scratch/345/vsc34512/snakefile_demo/Snakefile:
+Expecting rule keyword, comment or docstrings inside a rule definition. (Snakefile, line 8)
