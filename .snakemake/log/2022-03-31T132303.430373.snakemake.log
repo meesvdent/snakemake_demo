@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 7 of /lustre1/scratch/345/vsc34512/snakefile_demo/Snakefile:
+Wildcards in input files cannot be determined from output files:
+'name'
